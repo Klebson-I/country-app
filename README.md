@@ -1,3 +1,8 @@
+React app that display information of country as for example capitals, flag, languages, using API.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
