@@ -1,0 +1,17 @@
+
+.loading_div{
+    background-image: url("../../../public/sync.png");
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: spinning 3s infinite linear;
+}
+@keyframes spinning {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}

@@ -1,0 +1,128 @@
+.resultsDiv{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.countryNameDiv{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cairo', sans-serif;
+}
+.countryNameDiv h5{
+    margin-right: 10px;
+    font-size: 25px;
+}
+.countryNameDiv p{
+    font-size: 25px;
+}
+
+.subregionDiv{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cairo', sans-serif;
+}
+.subregionDiv h5{
+    margin-right: 10px;
+    font-size: 25px;
+}
+.subregionDiv p{
+    font-size: 25px;
+}
+.flagDiv{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flagDiv img{
+    width: 200px;
+    height: auto;
+}
+.coatOfArmsDiv{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.coatOfArmsDiv img{
+    width: 150px;
+    height: auto;
+}
+.coordsDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cairo', sans-serif;
+}
+.coordsDiv h5{
+    margin-right: 10px;
+    font-size: 25px;
+}
+.coordsDiv p{
+    font-size: 25px;
+}
+.capitalDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cairo', sans-serif;
+}
+.capitalDiv h5{
+    font-size: 25px;
+    margin: 0 10px 0 0;
+}
+.capitalString{
+    font-size: 25px;
+    margin:0;
+}
+.languageDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cairo', sans-serif;
+}
+.languageDiv h5{
+    font-size: 25px;
+}
+.languageTable{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.languageTable thead tr th {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+@media (max-width: 770px) {
+    .resultsDiv{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .flagDiv{
+        margin-bottom: 20px;
+    }
+    .countryNameDiv{
+        width: 100%;
+    }
+    .subregionDiv{
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .subregionDiv{
+        flex-direction: column;
+    }
+}

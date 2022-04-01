@@ -1,0 +1,33 @@
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cairo', sans-serif;
+}
+.formDiv h3{
+    font-size: 30px;
+    margin: 0;
+}
+.searchDiv{
+    display: flex;
+}
+.searchDiv input{
+    font-size: 25px;
+}
+.searchDiv button{
+    font-size: 25px;
+    margin-left: 5px;
+    background: inherit;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+@media (max-width: 450px) {
+    .searchDiv{
+        flex-direction: column;
+    }
+    .searchDiv input{
+        margin-bottom: 10px;
+    }
+}
